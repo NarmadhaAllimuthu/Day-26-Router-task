@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#navbarNavAltMarkup {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: linen;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-nav {
+  display: flex;
+  align-items: center; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.nav-link {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-weight: bolder;
+  margin: 0 15px;
+  position: relative; 
 }
+
+.nav-link:hover {
+  color:green;
+}
+
+.nav-link:hover::after {
+  content: ''; 
+  position: absolute;
+  left: 0;
+  bottom: -2px; 
+  width: 100%;
+  height: 4px;
+  background-color: forestgreen;
+}
+
+
+
+.card:hover{
+ box-shadow: 10px 10px gainsboro;
+}
+
+
+h5{
+  font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 1px;
+word-spacing: 2px;
+line-height: 0.9px;
+}
+
+
+p{
+  font-family: 'Times New Roman', Times, serif ;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-indent: 60px;
+}
+
+
+
+
